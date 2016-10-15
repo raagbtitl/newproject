@@ -41,3 +41,9 @@ git checkout master
 git log
 
 git remove -v
+
+git tag  v1.4
+
+git push origin --tags
+
+
