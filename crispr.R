@@ -25,7 +25,7 @@ sampleDistMatrix <- as.matrix( sampleDists )
 colors <- colorRampPalette( rev(brewer.pal(9, "Blues")) )(255)
 x11();pheatmap(sampleDistMatrix,clustering_distance_rows=sampleDists,clustering_distance_cols=sampleDists,
                col=colors)
-## compare plasmid versus plx14
+## compare d14 versus plx14
 chose<-c(4,5,8,9)
 dt_newy<-log2(dt[, chose])
 cond <- as.factor(a[chose])
