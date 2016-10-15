@@ -1,6 +1,6 @@
 § Github
 
-git clone https://github.com/raagbtitl/newproject.git
+git clone https://github.com/raagbtitl/newproject.git 
 
 cd newproject
 
@@ -8,9 +8,13 @@ git add .
 
 git commit -m "Add new repos"
 
+git status -s
+
 git remote
 
 git show 
+
+git config --list
 
 git add ./Part1
 
@@ -33,3 +37,7 @@ git commit -m "add another respos"
 git push origin master
 
 git checkout master
+
+git log
+
+git remove -v
